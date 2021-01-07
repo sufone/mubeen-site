@@ -104,9 +104,24 @@ textarea {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 50vw;
   min-width: 300px; /*so it wraps*/
-  height:60vh;
+  height:100vh;
+}
+#sub-container-1 {
+  width: 55vw;
+  background-color: #416183;
+
+}
+#sub-container-2 {
+  width: 45vw;
+}
+
+#google-badge {
+  max-width: 200px;
+}
+
+h1, h2, subtitle, p {
+  /* color: #e2e2e2 */
 }
 
 /* ==========================================================================
