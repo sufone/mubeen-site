@@ -108,20 +108,48 @@ textarea {
   height:100vh;
 }
 #sub-container-1 {
-  width: 55vw;
+  width: 45vw;
   background-color: #416183;
 
 }
 #sub-container-2 {
-  width: 45vw;
+  width: 55vw;
 }
 
 #google-badge {
   max-width: 200px;
 }
 
+#apple-badge {
+  max-width: 175px;
+}
+
 h1, h2, subtitle, p {
   /* color: #e2e2e2 */
+}
+
+h1 {
+  margin-bottom: 0;
+  font-size: 2.5em
+}
+
+subtitle {
+  font-size: 1.5em;
+}
+
+#explanation {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#title-subtitle {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+#disclaimer-text {
+  color: #333;
+  font-size: 0.7em;
 }
 
 /* ==========================================================================
