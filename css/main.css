@@ -85,35 +85,26 @@ textarea {
 
 /* ==========================================================================
    Author's custom styles
-   ========================================================================== */
+   ========================================================================== ==================================================== */
 
 #main-container {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap-reverse; /* works nicely on mobile */
+  flex-direction: column;
   width: 100vw;
+  padding: 3vh 0 0 0;
 }
-/* @media only screen and (min-width: 600px) {
-  #main-container {
-    flex-direction: row;
-  }
-} */
 
-#sub-container-1, #sub-container-2 {
+#sub-container-2 {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  min-width: 300px; /*so it wraps*/
-  height:100vh;
-}
-#sub-container-1 {
-  width: 45vw;
-  background-color: #416183;
-
+  align-items: center;
+  min-width: 100vw;
 }
 #sub-container-2 {
-  width: 55vw;
+  display: flex;
+  flex-direction: row;
+  justify-self: center;
 }
 
 #google-badge {
@@ -124,8 +115,15 @@ textarea {
   max-width: 175px;
 }
 
-h1, h2, subtitle, p {
+h1, h2, subtitle  {
   /* color: #e2e2e2 */
+  font-size: larger;
+  text-align: center;
+
+}
+p {
+  font-size: normal;
+    text-align: center;
 }
 
 h1 {
@@ -149,8 +147,34 @@ subtitle {
 
 #disclaimer-text {
   color: #333;
-  font-size: 0.7em;
+  font-size: 0.8rem;
 }
+figure {
+  text-align: center;
+  padding: 5vh 0 0 0;
+}
+iframe {
+    border: solid 12px #416183;
+    border-radius: 8px;
+
+}
+h1 {
+  color:  #416183;
+}
+
+@media only screen and (max-width: 1000px) {
+  h1, h2, subtitle, p {
+    /* color: #e2e2e2 */
+    font-size: normal;
+  }
+  #google-badge {
+  max-width: 150px;
+  }
+
+  #apple-badge {
+    max-width: 125px;
+  }
+} 
 
 /* ==========================================================================
    Helper classes
