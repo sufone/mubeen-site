@@ -160,12 +160,18 @@ iframe {
 }
 h1 {
   color:  #416183;
+  margin-top: 0.3em;
+}
+#main-icon {
+  max-width: 7vw;
+  margin-top: 0.6em;
 }
 
 @media only screen and (max-width: 1000px) {
   h1, h2, subtitle, p {
     /* color: #e2e2e2 */
     font-size: normal;
+    margin-top: 0.2em;
   }
   #google-badge {
   max-width: 150px;
@@ -173,6 +179,9 @@ h1 {
 
   #apple-badge {
     max-width: 125px;
+  }
+  #main-icon {
+    max-width: 15vw;
   }
 } 
 
