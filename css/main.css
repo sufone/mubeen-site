@@ -166,8 +166,22 @@ h1 {
   max-width: 7vw;
   margin-top: 0.6em;
 }
-
+#long-message {
+  padding: 1.5rem 0 1.5rem 0;
+  text-emphasis: left;
+  max-width: 50vw;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #d2e7fc;
+  border-radius: 4px;
+}
+#long-message > p {
+  margin:  2rem;
+}
 @media only screen and (max-width: 1000px) {
+  #long-message {
+    max-width: 85vw;
+  }
   h1, h2, subtitle, p {
     /* color: #e2e2e2 */
     font-size: normal;
